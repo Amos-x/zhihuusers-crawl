@@ -104,3 +104,7 @@ SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 
 REDIS_URL = 'redis://Amos:wyx379833553@192.168.1.44:6379'
+
+# 单机多进程分布式开启核心数
+CORE_NUMBER = 3
+
